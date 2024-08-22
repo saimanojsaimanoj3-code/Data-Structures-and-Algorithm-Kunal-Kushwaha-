@@ -2,7 +2,7 @@ public class Splitarray {
     public static void main(String[] args) {
         int[] arr = {4,5,6,7,0,1,2};
         int target = 0;
-        System.out.println("Element found at index : "+splitArray(arr,target));
+        System.out.println("largest sum among the two subarrays is : "+splitArray(arr,target));
     }
     public static int splitArray(int[] nums,int m)
     {
